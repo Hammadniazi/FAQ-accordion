@@ -30,6 +30,11 @@ body{
     font-weight: bold;
     position: relative;
     width: 100%;
+    transition: transform 0.3s ease;
+}
+.accordion-question:hover{
+    transform: scale(1.02);
+    /* transform: translateY(-5px); */
 }
 .accordion-question::after{
     content: "+";
